@@ -1,50 +1,112 @@
-# Welcome to your Expo app 👋
+# 🚗 Rideflow - React Native Project 🚀
+This is a mobile app Rideflow, built using React Native and multiple technologies to ensure user experience, real-time locations, and payments. The project provides a foundational platform for developing full-stack mobile development skills.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📸 Screenshots
+Image 1
+Image 2
+Image 3
+Image 4
 
-## Get started
+## 📝 Project Description
+Rideflow is an application that allows users to book rides, view live locations, pay for rides, and manage the user experience in a manner similar to the original Uber app. With a responsive interface optimized for both Android and iOS, it demonstrates the ability to integrate and utilize modern technologies in mobile application development.
 
-1. Install dependencies
+## 🔋 Features
 
-   ```bash
-   npm install
-   ```
+- ✅ **Authentication and Registration**: Easy user sign-in and registration process.
+- ✅ **Detailed Profile**: Management of user account information.
+- ✅ **Recent Rides**: Quick access to the last rides taken.
+- ✅ **Ride History**: Complete list of all booked rides.
+- ✅ **Live Map**: Real-time location with markers on the map using Google Maps.
+- ✅ **Car Selection on Map**: Select available cars nearby.
+- ✅ **Google Places Autocomplete**: Automatic suggestions for entered locations.
+- ✅ **Ride Confirmation and Details**: Detailed information about the ride (estimated time, price).
+- ✅ **Stripe Payment**: Secure payments through various methods.
+- ✅ **Google oAuth Authentication**: Easy sign-in through Google.
+- ✅ **Notifications and Alerts**: Notifications for booking status.
 
-2. Start the app
+## 📑 Contents
+- 🌟 [Getting Started](#getting-started)
+- 🛠️ [Installation Commands](#installation-commands)
+- 🎬 [Running the App](#running-the-app)
+- 📸 [Presentation Images](#presentation-images)
+- 🎥 [Presentation Video](#presentation-video)
 
-   ```bash
-    npx expo start
-   ```
+## 🌟 Getting Started
+To run the Rideflow app on your local device, follow the steps below:
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Project Initialization
+```bash
+npx create-expo-app@latest ./
+```
+### Setting Node.js
 
 ```bash
-npm run reset-project
+nvm install 20.16.0
+nvm use 20.16.0
+```
+### Running the Server
+```bash
+npm start # or npx expo start -c (to clear also the cache)
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Installation Commands
 
-## Learn more
+### Installing TailwindCSS and NativeWind
+```bash
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+npm tailwindcss init
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### Other Required Dependencies
+```bash
+npm cache clean --force
+npm install react-native-safe-area-context
+npx expo lint
+```
+### Installing Prettier and ESLint
+```bash
+npx expo install -- --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### After the above command:
+```bash
+Navigate to Settings -> Languages & Frameworks -> Javascript -> Code Quality Tools -> ESLint and select the manual ESLint configuration.
+Set Settings -> Tools -> Actions on Save and check Run eslint --fix.
+```
 
-## Join the community
+### Installing Other Libraries
+```bash
+npm install react-native-swiper
+npx expo install react-dom react-native-web @expo/metro-runtime
+npm install @clerk/clerk-expo
+npm install expo-secure-store
+npm install react-native-modal
+npm install expo-local-authentication
+npm install expo-auth-session
+npm install @neondatabase/serverless
+npm install react-native-maps react-native-maps-directions
+npm install zustand
+npm install expo-location
+npm install react-native-google-places-autocomplete
+npm install react-native-get-random-values
+npm install react-native-gesture-handler
+npm install @gorhom/bottom-sheet
+npm install stripe --save
+npm install @stripe/stripe-react-native
+npm install expo-linking
+```
+## 🎬 Running the App
+To start the development server:
+```bash
+npx expo start -c # `-c` option for clear cache
+```
 
-Join our community of developers creating universal apps.
+Open the Expo Go app on your device and scan the displayed QR code to view the project.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📸 Presentation Images
+View screenshots and configuration examples for the Uber Clone project.
+
+## 🎥 Presentation Video
+Watch the demo video of the Uber Clone app to explore its features.
+
