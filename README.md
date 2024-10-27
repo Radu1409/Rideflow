@@ -124,8 +124,8 @@ npx expo start -c # `-c` option for clear cache
 Open the Expo Go app on your device and scan the displayed QR code to view the project.
 
 ## 📸 Presentation Images
-View screenshots and configuration examples for the Uber Clone project.
+View screenshots and configuration examples for the Rideflow project.
 
 ## 🎥 Presentation Video
-Watch the demo video of the Uber Clone app to explore its features.
+Watch the demo video of the Rideflow app to explore its features.
 
