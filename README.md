@@ -26,6 +26,17 @@ Rideflow is an application that allows users to book rides, view live locations,
 - ✅ **Google oAuth Authentication**: Easy sign-in through Google.
 - ✅ **Notifications and Alerts**: Notifications for booking status.
 
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- React Native
+- Expo
+- Stripe
+- PostgreSQL
+- Google Maps
+- zustand
+- Clerk
+- Tailwind CSS
+
 ## 📑 Contents
 - 🌟 [Getting Started](#getting-started)
 - 🛠️ [Installation Commands](#installation-commands)
