@@ -2,10 +2,12 @@
 This is a mobile app Rideflow, built using React Native and multiple technologies to ensure user experience, real-time locations, and payments. The project provides a foundational platform for developing full-stack mobile development skills.
 
 ## 📸 Screenshots
-Image 1
-Image 2
-Image 3
-Image 4
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/Rideflow_2.jpeg" alt="Photo 1" width="320"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/Rideflow_1.jpeg" alt="Photo 2" width="320"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/Rideflow_3.jpeg" alt="Photo 3" width="320"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/Rideflow_4.jpeg" alt="Photo 3" width="320"/>
+</p>
 
 ## 📝 Project Description
 Rideflow is an application that allows users to book rides, view live locations, pay for rides, and manage the user experience in a manner similar to the original Uber app. With a responsive interface optimized for both Android and iOS, it demonstrates the ability to integrate and utilize modern technologies in mobile application development.
