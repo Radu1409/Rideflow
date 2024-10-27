@@ -1,5 +1,5 @@
-# 🚗 Uber Clone - React Native Project 🚀
-This is a mobile app Uber Clone, built using React Native and multiple technologies to ensure user experience, real-time locations, and payments. The project provides a foundational platform for developing full-stack mobile development skills.
+# 🚗 Rideflow - React Native Project 🚀
+This is a mobile app Rideflow, built using React Native and multiple technologies to ensure user experience, real-time locations, and payments. The project provides a foundational platform for developing full-stack mobile development skills.
 
 ## 📸 Screenshots
 Image 1
@@ -8,7 +8,7 @@ Image 3
 Image 4
 
 ## 📝 Project Description
-Uber Clone is an application that allows users to book rides, view live locations, pay for rides, and manage the user experience in a manner similar to the original Uber app. With a responsive interface optimized for both Android and iOS, it demonstrates the ability to integrate and utilize modern technologies in mobile application development.
+Rideflow is an application that allows users to book rides, view live locations, pay for rides, and manage the user experience in a manner similar to the original Uber app. With a responsive interface optimized for both Android and iOS, it demonstrates the ability to integrate and utilize modern technologies in mobile application development.
 
 ## 🔋 Features
 
@@ -32,7 +32,7 @@ Uber Clone is an application that allows users to book rides, view live location
 - 🎥 [Presentation Video](#presentation-video)
 
 ## 🌟 Getting Started
-To run the Uber Clone app on your local device, follow the steps below:
+To run the Rideflow app on your local device, follow the steps below:
 
 ### Project Initialization
 ```bash
