@@ -3,10 +3,10 @@ This is a mobile app Rideflow, built using React Native and multiple technologie
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/1.jpeg" alt="Photo 1" width="200"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/2.jpeg" alt="Photo 2" width="200"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/3.jpeg" alt="Photo 3" width="200"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/4.jpeg" alt="Photo 4" width="200"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/1.jpeg" alt="Photo 1" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/2.jpeg" alt="Photo 2" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/3.jpeg" alt="Photo 3" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/4.jpeg" alt="Photo 4" width="150"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/5.jpeg" alt="Photo 5" width="245"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/6.jpeg" alt="Photo 6" width="245"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/7.jpeg" alt="Photo 7" width="245"/>
