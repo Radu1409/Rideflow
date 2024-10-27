@@ -99,7 +99,7 @@ npm install expo-linking
 ## 🎬 Running the App
 To start the development server:
 ```bash
-npx expo start
+npx expo start -c # `-c` option for clear cache
 ```
 
 Open the Expo Go app on your device and scan the displayed QR code to view the project.
