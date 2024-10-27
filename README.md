@@ -20,28 +20,28 @@ Rideflow is an application that allows users to book rides, view live locations,
 
 ## 🔋 Features
 
-- ✅ **Authentication and Registration**: Easy user sign-in and registration process.
-- ✅ **Detailed Profile**: Management of user account information.
-- ✅ **Recent Rides**: Quick access to the last rides taken.
-- ✅ **Ride History**: Complete list of all booked rides.
-- ✅ **Live Map**: Real-time location with markers on the map using Google Maps.
-- ✅ **Car Selection on Map**: Select available cars nearby.
-- ✅ **Google Places Autocomplete**: Automatic suggestions for entered locations.
-- ✅ **Ride Confirmation and Details**: Detailed information about the ride (estimated time, price).
-- ✅ **Stripe Payment**: Secure payments through various methods.
-- ✅ **Google oAuth Authentication**: Easy sign-in through Google.
-- ✅ **Notifications and Alerts**: Notifications for booking status.
+- 👉 **Authentication and Registration**: Easy user sign-in and registration process.
+- 👉 **Detailed Profile**: Management of user account information.
+- 👉 **Recent Rides**: Quick access to the last rides taken.
+- 👉 **Ride History**: Complete list of all booked rides.
+- 👉 **Live Map**: Real-time location with markers on the map using Google Maps.
+- 👉 **Car Selection on Map**: Select available cars nearby.
+- 👉 **Google Places Autocomplete**: Automatic suggestions for entered locations.
+- 👉 **Ride Confirmation and Details**: Detailed information about the ride (estimated time, price).
+- 👉 **Stripe Payment**: Secure payments through various methods.
+- 👉 **Google oAuth Authentication**: Easy sign-in through Google.
+- 👉 **Notifications and Alerts**: Notifications for booking status.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- React Native
-- Expo
-- Stripe
-- PostgreSQL
-- Google Maps
-- zustand
-- Clerk
-- Tailwind CSS
+- ✅ React Native
+- ✅ Expo
+- ✅ Stripe
+- ✅ PostgreSQL
+- ✅ Google Maps
+- ✅ zustand
+- ✅ Clerk
+- ✅ Tailwind CSS
 
 ## 📑 Contents
 - 🌟 [Getting Started](#getting-started)
