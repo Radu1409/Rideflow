@@ -65,7 +65,11 @@ nvm use 20.16.0
 ```
 ### Running the Server
 ```bash
-npm start # or npx expo start -c (to clear also the cache)
+npm start # OR npx expo start -c (to clear the cache too)
+```
+### Cleaning the Cache
+```bash
+npm cache clean --force
 ```
 
 ## 🛠️ Installation Commands
@@ -79,7 +83,6 @@ npm tailwindcss init
 
 ### Other Required Dependencies
 ```bash
-npm cache clean --force
 npm install react-native-safe-area-context
 npx expo lint
 ```
@@ -118,7 +121,7 @@ npm install expo-linking
 ## 🎬 Running the App
 To start the development server:
 ```bash
-npx expo start -c # `-c` option for clear cache
+npx expo start -c # "-c" option for clearing the cache
 ```
 
 Open the Expo Go app on your device and scan the displayed QR code to view the project.
