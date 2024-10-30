@@ -4,15 +4,20 @@ This is a mobile app Rideflow, built using React Native and multiple technologie
 ## 📸 Screenshots
 <p align="center">
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/1.jpeg" alt="Photo 1" width="150"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/2.jpeg" alt="Photo 2" width="150"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/3.jpeg" alt="Photo 3" width="150"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/4.jpeg" alt="Photo 4" width="150"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/5.jpeg" alt="Photo 5" width="150"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/6.jpeg" alt="Photo 6" width="150"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/7.jpeg" alt="Photo 7" width="150"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/8.jpeg" alt="Photo 8" width="150"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/9.jpeg" alt="Photo 9" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/10.jpeg" alt="Photo 10" width="150"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/11.jpeg" alt="Photo 11" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/12.jpeg" alt="Photo 12" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/13.jpeg" alt="Photo 13" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/14.jpeg" alt="Photo 14" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/15.jpeg" alt="Photo 15" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/16.jpeg" alt="Photo 16" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/17.jpeg" alt="Photo 17" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/18.jpeg" alt="Photo 18" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/19.jpeg" alt="Photo 19" width="150"/>
 </p>
 
 ## 📝 Project Description
