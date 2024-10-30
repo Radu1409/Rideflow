@@ -12,7 +12,7 @@ This is a mobile app Rideflow, built using React Native and multiple technologie
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/7.jpeg" alt="Photo 7" width="150"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/8.jpeg" alt="Photo 8" width="150"/>
   <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/9.jpeg" alt="Photo 9" width="150"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/10.jpeg" alt="Photo 10" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/11.jpeg" alt="Photo 11" width="150"/>
 </p>
 
 ## 📝 Project Description
