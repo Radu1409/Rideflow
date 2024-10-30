@@ -3,10 +3,16 @@ This is a mobile app Rideflow, built using React Native and multiple technologie
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/Rideflow_2.jpeg" alt="Photo 1" width="320"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/Rideflow_1.jpeg" alt="Photo 2" width="320"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/Rideflow_3.jpeg" alt="Photo 3" width="320"/>
-  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/Rideflow_4.jpeg" alt="Photo 3" width="320"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/1.jpeg" alt="Photo 1" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/2.jpeg" alt="Photo 2" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/3.jpeg" alt="Photo 3" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/4.jpeg" alt="Photo 4" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/5.jpeg" alt="Photo 5" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/6.jpeg" alt="Photo 6" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/7.jpeg" alt="Photo 7" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/8.jpeg" alt="Photo 8" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/9.jpeg" alt="Photo 9" width="150"/>
+  <img src="https://raw.githubusercontent.com/Radu1409/Rideflow/refs/heads/main/assets/media/10.jpeg" alt="Photo 10" width="150"/>
 </p>
 
 ## 📝 Project Description
@@ -14,28 +20,28 @@ Rideflow is an application that allows users to book rides, view live locations,
 
 ## 🔋 Features
 
-- ✅ **Authentication and Registration**: Easy user sign-in and registration process.
-- ✅ **Detailed Profile**: Management of user account information.
-- ✅ **Recent Rides**: Quick access to the last rides taken.
-- ✅ **Ride History**: Complete list of all booked rides.
-- ✅ **Live Map**: Real-time location with markers on the map using Google Maps.
-- ✅ **Car Selection on Map**: Select available cars nearby.
-- ✅ **Google Places Autocomplete**: Automatic suggestions for entered locations.
-- ✅ **Ride Confirmation and Details**: Detailed information about the ride (estimated time, price).
-- ✅ **Stripe Payment**: Secure payments through various methods.
-- ✅ **Google oAuth Authentication**: Easy sign-in through Google.
-- ✅ **Notifications and Alerts**: Notifications for booking status.
+- 👉 **Authentication and Registration**: Easy user sign-in and registration process.
+- 👉 **Detailed Profile**: Management of user account information.
+- 👉 **Recent Rides**: Quick access to the last rides taken.
+- 👉 **Ride History**: Complete list of all booked rides.
+- 👉 **Live Map**: Real-time location with markers on the map using Google Maps.
+- 👉 **Car Selection on Map**: Select available cars nearby.
+- 👉 **Google Places Autocomplete**: Automatic suggestions for entered locations.
+- 👉 **Ride Confirmation and Details**: Detailed information about the ride (estimated time, price).
+- 👉 **Stripe Payment**: Secure payments through various methods.
+- 👉 **Google oAuth Authentication**: Easy sign-in through Google.
+- 👉 **Notifications and Alerts**: Notifications for booking status.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- React Native
-- Expo
-- Stripe
-- PostgreSQL
-- Google Maps
-- zustand
-- Clerk
-- Tailwind CSS
+- ✅ React Native
+- ✅ Expo
+- ✅ Stripe
+- ✅ PostgreSQL
+- ✅ Google Maps
+- ✅ zustand
+- ✅ Clerk
+- ✅ Tailwind CSS
 
 ## 📑 Contents
 - 🌟 [Getting Started](#getting-started)
@@ -59,7 +65,11 @@ nvm use 20.16.0
 ```
 ### Running the Server
 ```bash
-npm start # or npx expo start -c (to clear also the cache)
+npm start # OR npx expo start -c (to clear the cache too)
+```
+### Cleaning the Cache
+```bash
+npm cache clean --force
 ```
 
 ## 🛠️ Installation Commands
@@ -73,7 +83,6 @@ npm tailwindcss init
 
 ### Other Required Dependencies
 ```bash
-npm cache clean --force
 npm install react-native-safe-area-context
 npx expo lint
 ```
@@ -112,14 +121,14 @@ npm install expo-linking
 ## 🎬 Running the App
 To start the development server:
 ```bash
-npx expo start -c # `-c` option for clear cache
+npx expo start -c # "-c" option for clearing the cache
 ```
 
 Open the Expo Go app on your device and scan the displayed QR code to view the project.
 
 ## 📸 Presentation Images
-View screenshots and configuration examples for the Uber Clone project.
+View screenshots and configuration examples for the Rideflow project.
 
 ## 🎥 Presentation Video
-Watch the demo video of the Uber Clone app to explore its features.
+Watch the demo video of the Rideflow app to explore its features.
 
