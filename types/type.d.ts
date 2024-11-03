@@ -95,6 +95,7 @@ declare interface PaymentProps {
   amount: string;
   driverId: number;
   rideTime: number;
+  driverDataPayment: string | string[];
 }
 
 declare interface LocationStore {

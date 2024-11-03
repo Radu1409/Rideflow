@@ -10,6 +10,30 @@ export const sortRides = (rides: Ride[]): Ride[] => {
   return result.reverse();
 };
 
+export const formatArrivalTime = (totalMinutes: number) => {
+  const days = Math.floor(totalMinutes / 1440); // 1 zi = 1440 minute
+  const hours = Math.floor((totalMinutes % 1440) / 60);
+  const minutes = Math.round(totalMinutes % 60);
+
+  let formattedTime = "";
+
+  if (days > 0) {
+    formattedTime += `${days} day${days !== 1 ? "s" : ""}`;
+  }
+
+  if (hours > 0) {
+    if (formattedTime) formattedTime += ", ";
+    formattedTime += `${hours} hour${hours !== 1 ? "s" : ""}`;
+  }
+
+  if (minutes > 0) {
+    if (formattedTime) formattedTime += " ";
+    formattedTime += `${minutes} min${minutes !== 1 ? "s" : ""}`;
+  }
+
+  return formattedTime || "0 mins";
+};
+
 export function formatTime(minutes: number): string {
   const formattedMinutes = +minutes?.toFixed(0) || 0;
 

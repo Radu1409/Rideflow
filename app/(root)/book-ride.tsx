@@ -128,6 +128,7 @@ const BookRide = () => {
             amount={driverDetails?.price!}
             driverId={driverDetails?.id}
             rideTime={driverDetails?.time!}
+            driverDataPayment={driverInfo}
           />
         </>
       </RideLayout>
