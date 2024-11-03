@@ -8,6 +8,7 @@ const googlePlacesApiKey = process.env.EXPO_PUBLIC_GOOGLE_API_KEY;
 
 const GoogleTextInput = ({
   icon,
+  iconRight,
   initialLocation,
   containerStyle,
   textInputBackgroundColor,
@@ -76,6 +77,19 @@ const GoogleTextInput = ({
           placeholderTextColor: "gray",
           placeholder: initialLocation ?? "Where do you want to go?",
         }}
+        renderRightButton={() =>
+          iconRight ? (
+            <View className="justify-center items-center w-6 h-6">
+              <Image
+                source={iconRight}
+                className="w-6 h-6"
+                resizeMode="contain"
+              />
+            </View>
+          ) : (
+            <View />
+          )
+        }
       />
     </View>
   );

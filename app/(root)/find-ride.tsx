@@ -14,11 +14,12 @@ const FindRide = () => {
     setUserLocation,
   } = useLocationStore();
   return (
-    <RideLayout title="Ride" snapPoints={["85%"]}>
+    <RideLayout title="Ride" snapPoints={["45", "85%"]}>
       <View className="my-3">
         <Text className="text-lg font-JakartaSemiBold mb-3">From</Text>
         <GoogleTextInput
-          icon={icons.target}
+          icon={icons.point}
+          iconRight={icons.target}
           initialLocation={userAddress!}
           containerStyle="bg-neutral-100"
           textInputBackgroundColor="#f5f5f5"
@@ -28,7 +29,8 @@ const FindRide = () => {
       <View className="my-3">
         <Text className="text-lg font-JakartaSemiBold mb-3">To</Text>
         <GoogleTextInput
-          icon={icons.target}
+          icon={icons.point}
+          iconRight={icons.map}
           initialLocation={destinationAddress!}
           containerStyle="bg-neutral-100"
           textInputBackgroundColor="transparent"
