@@ -26,7 +26,7 @@ export default function Page() {
 
   const [hasPermissions, setHasPermissions] = useState(false);
   const handleSignOut = () => {
-    signOut();
+    signOut().then(() => {});
 
     router.replace("/(auth)/sign-in");
   };
