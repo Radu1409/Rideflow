@@ -56,8 +56,11 @@ const DriverCard = ({ item, selected, setSelected }: DriverCardProps) => {
 
       <Image
         source={{ uri: item.car_image_url }}
-        className="h-14 w-14"
+        className="h-14 w-24"
         resizeMode="contain"
+        style={{
+          transform: [{ scaleX: -1 }],
+        }}
       />
     </TouchableOpacity>
   );
