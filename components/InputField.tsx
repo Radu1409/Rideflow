@@ -14,6 +14,7 @@ const InputField = ({
   label,
   labelStyle,
   icon,
+  iconRight,
   secureTextEntry = false,
   containerStyle,
   inputStyle,
@@ -38,6 +39,9 @@ const InputField = ({
             secureTextEntry={secureTextEntry}
             {...props}
           ></TextInput>
+          {iconRight && (
+            <Image source={iconRight} className={`w-6 h-6 mr-4 ${iconStyle}`} />
+          )}
         </View>
       </View>
     </TouchableWithoutFeedback>

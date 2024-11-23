@@ -5,8 +5,10 @@ import chat from "@/assets/icons/chat.png";
 import checkmark from "@/assets/icons/check.png";
 import close from "@/assets/icons/close.png";
 import dollar from "@/assets/icons/dollar.png";
+import edit from "@/assets/icons/edit.png";
 import email from "@/assets/icons/email.png";
 import eyecross from "@/assets/icons/eyecross.png";
+import galleryEdit from "@/assets/icons/gallery-edit.png";
 import google from "@/assets/icons/google.png";
 import home from "@/assets/icons/home.png";
 import list from "@/assets/icons/list.png";
@@ -51,8 +53,10 @@ export const icons = {
   checkmark,
   close,
   dollar,
+  edit,
   email,
   eyecross,
+  galleryEdit,
   google,
   home,
   list,
