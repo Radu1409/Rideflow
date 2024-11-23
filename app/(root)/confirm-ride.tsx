@@ -4,6 +4,7 @@ import DriverCard from "@/components/DriverCard";
 import CustomButton from "@/components/CustomButton";
 import { router } from "expo-router";
 import { useDriverStore } from "@/app/store";
+import { MarkerData } from "@/types/type";
 
 const ConfirmRide = () => {
   const { drivers, selectedDriver, setSelectedDriver } = useDriverStore();
@@ -23,7 +24,20 @@ const ConfirmRide = () => {
           <View className="mx-5 mt-10">
             <CustomButton
               title="Select Ride"
-              onPress={() => router.push("/(root)/book-ride")}
+              onPress={() => {
+                if (selectedDriver) {
+                  const driverInfo: MarkerData | null =
+                    selectedDriver !== null
+                      ? drivers[selectedDriver - 1]
+                      : null;
+                  const driverInfoString = JSON.stringify(driverInfo);
+                  router.push(
+                    `/(root)/book-ride?driverInfo=${encodeURIComponent(driverInfoString)}`,
+                  );
+                } else {
+                  console.warn("No driver selected.");
+                }
+              }}
             />
           </View>
         )}

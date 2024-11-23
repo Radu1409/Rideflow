@@ -5,18 +5,48 @@ import RideLayout from "@/components/RideLayout";
 import Payment from "@/components/Payment";
 import { icons } from "@/constants";
 import { formatTime } from "@/lib/utils";
-import { useDriverStore, useLocationStore } from "@/app/store";
+import { useLocationStore } from "@/app/store";
 
 import { StripeProvider } from "@stripe/stripe-react-native";
+import { useLocalSearchParams } from "expo-router";
+import { useEffect, useState } from "react";
+import { MarkerData } from "@/types/type";
+import { ActivityIndicator } from "react-native";
 
 const BookRide = () => {
   const { user } = useUser();
   const { userAddress, destinationAddress } = useLocationStore();
-  const { drivers, selectedDriver } = useDriverStore();
+  const { driverInfo } = useLocalSearchParams();
+  const [driverDetails, setDriverDetails] = useState<MarkerData | undefined>(
+    undefined,
+  );
+  const [loading, setLoading] = useState(true);
 
-  const driverDetails = drivers?.filter(
-    (driver) => +driver.id === selectedDriver,
-  )[0];
+  useEffect(() => {
+    const fetchDriverData = async () => {
+      if (driverInfo) {
+        try {
+          const decodedString = decodeURIComponent(driverInfo as string);
+          const parsedData: MarkerData = JSON.parse(decodedString);
+          setDriverDetails(parsedData);
+        } catch (error) {
+          console.error("Failed to parse driver details:", error);
+        } finally {
+          setLoading(false);
+        }
+      }
+    };
+
+    fetchDriverData().then(() => {});
+  }, [driverInfo]);
+
+  if (loading) {
+    return <ActivityIndicator size="large" color="#0000ff" />;
+  }
+
+  if (!driverDetails) {
+    return <Text>No driver data available.</Text>;
+  }
 
   return (
     <StripeProvider
